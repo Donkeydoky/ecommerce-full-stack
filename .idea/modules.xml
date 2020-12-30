@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/02-backend/Spring-boot-ecommerce/Spring-boot-ecommerce.iml" filepath="$PROJECT_DIR$/02-backend/Spring-boot-ecommerce/Spring-boot-ecommerce.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ecommerce-full-stack.iml" filepath="$PROJECT_DIR$/.idea/ecommerce-full-stack.iml" />
+    </modules>
+  </component>
+</project>
