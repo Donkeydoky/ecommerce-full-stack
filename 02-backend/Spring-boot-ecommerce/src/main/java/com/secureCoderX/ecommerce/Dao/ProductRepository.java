@@ -10,7 +10,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 @CrossOrigin
 public interface ProductRepository extends JpaRepository<Product, Long> {
 
-    //SELECT * FROM product where category_id = ?
+    //SELECT * FROM product WHERE category_id = ?
     Page<Product> findByCategoryId(@RequestParam("id") Long id, Pageable pageable);
 
+    //SELECT * FROM product p WHERE p.name LIKE CONCAT('%', :name , '%')
+    Page<Product> findByNameContaining(@RequestParam("name") String name, Pageable pageable);
 }
